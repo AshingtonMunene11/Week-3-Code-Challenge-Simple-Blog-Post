@@ -61,8 +61,6 @@ DELETE	/posts/:id	Remove a post
 ```
 Use fetch API to interact with JSON data
 Update the DOM dynamically based on user actions
-```
-
 POST, PATCH, DELETE data from a mock backend
-
 Structure HTML/CSS for a responsive, centered SPA
+```
