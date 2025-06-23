@@ -1,2 +1,0 @@
-TweetHub
-TweetHub is a vibrant, Gen Z–inspired single-page application that lets users view, post, edit, and delete micro-blogs in a format that feels like a cross between Twitter threads and digital activism. Built with HTML, CSS, and vanilla JavaScript, it interfaces with a local JSON API to manage blog posts.
