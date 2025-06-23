@@ -27,6 +27,7 @@ API via: http://localhost:3000/posts
 
 
 📁 Project Structure
+
 ├── index.html
 ├── db.json
 ├── CSS/
