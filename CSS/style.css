@@ -1,0 +1,92 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-image: url(../images/Untitled\ design\ \(2\).png);
+  background-size: cover;
+  background-position: center;
+  color: #F9FAFB; 
+  padding: 0;
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0%;
+}
+.container {
+  max-width: none;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0;
+}
+
+section {
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05); 
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 80%;
+  backdrop-filter: blur(9px);     
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  color: #f9fafb;
+}
+ul#post-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul#post-list li {
+  background: #033194;
+  padding: 0.75rem;
+  border-left: 4px solid #ecc903; 
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+ul#post-list li:hover {
+  background: #cef107; 
+}
+
+#post-detail h3 {
+  margin-top: 0;
+  color: #FBBF24;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  background: #111827;
+  color: #F3F4F6;
+  border: 1px solid #4B5563;
+  border-radius: 4px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+form button {
+  background-color: #10B981; 
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #059669;
+}

@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "The Algorithm Ate My Personality",
+      "author": "@deja.blu",
+      "content": "I opened TikTok for '5 minutes' and now it's been 3 hours and I want to buy mushroom lamps. Is this self-expression or just curated chaos?"
+    },
+    {
+      "id": "2",
+      "title": "Soft Launching My Life",
+      "author": "@sofia.exe",
+      "content": "Posted a blurry pic of my hand near a window. No context. Just vibes. Let them wonder."
+    },
+    {
+      "id": "3",
+      "title": "Digital Burnout Is Real",
+      "author": "@pixel.mood",
+      "content": "I've got 14 unread messages, 6 open tabs, and the energy of a houseplant. If you see me, pretend I'm on DND IRL."
+    },
+    {
+      "id": "4",
+      "title": "Main Character Syndrome Activated",
+      "author": "@mochi.mel",
+      "content": "Walked into a coffee shop during golden hour with earbuds in and Lana playing. Felt dramatic. Spilled my drink. Core memory made."
+    },
+    {
+      "id": "5",
+      "title": "Can’t Tell If I’m Tired or Existential",
+      "author": "@cloud.based",
+      "content": "Slept 9 hours, still emotionally buffering. But at least my Spotify Discover playlist understands me."
+    }
+  ]
+}

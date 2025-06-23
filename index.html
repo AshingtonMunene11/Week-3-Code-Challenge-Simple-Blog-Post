@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TweetHub</title>
+  <link rel="stylesheet" href="./CSS/style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="h1">TweetHub</h1>
+  </header>
+  <main>
+    <div class="container">
+      <section id="post-list-section">
+       <h2 >📜 Tweet Posts</h2>
+        <ul id="post-list"></ul>
+      </section>
+      <section id="Tweet-detail-section">
+        <h2>🖋️ Your tweet info</h2>
+        <div id="post-detail">
+         <p>Select a post to view its full content.</p>
+         <form id="edit-post-form" class="hidden">
+             <h4>Update Post Details</h4>
+             <label for="edit-title">Title:</label>
+             <input type="text" name="title" id="edit-title" required>
+             <label for="edit-content">Content:</label>
+             <textarea name="content" id="edit-content" rows="5" required></textarea>
+             <button type="submit">Update Post</button>
+             <button type="button" id="cancel-edit">Cancel</button>
+            </form>
+        </div>
+      </section>
+    <section id="new-post-section">
+      <h2>➕ Make New Post</h2>
+      <form id="new-post-form">
+        <input type="text" id="title" placeholder="Tweet Title" required />
+        <input type="text" id="author" placeholder="@User Name" required />
+        <textarea id="content" placeholder="Post your tweet" rows="4" required></textarea>
+        <button type="submit">Tweet</button>
+      </form>
+    </section>
+    </div>
+  </main>
+  <script src="./JavaScript/index.js"></script>
+</body>
+</html>
