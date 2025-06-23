@@ -15,13 +15,13 @@ API via: [http://localhost:3000/posts](http://localhost:3000/posts)
 ---
 
 ## 📦 Features
-
+```
 ✅ View all tweet-style posts  
 ✅ Display full content and author when selected  
 ✅ Add a new post via form  
 ✅ Edit post content in place  
 ✅ Delete a post from the list  
-
+```
 ---
 
 ## 🚀 Getting Started
@@ -32,37 +32,36 @@ API via: [http://localhost:3000/posts](http://localhost:3000/posts)
 git clone https://github.com/your-username/tweethub.git
 cd tweethub
 Install and run json-server
-
-bash
-Copy
-Edit
 npm install -g json-server@0.17.4
 json-server --watch db.json
+```
 Launch frontend
 Use Live Server extension in VS Code or any local server.
 
 📁 Project Structure
-pgsql
-Copy
-Edit
+```
 ├── index.html
 ├── db.json
 ├── CSS/
 │   └── style.css
 ├── JavaScript/
 │   └── index.js
+```
 🧪 API Endpoints
 Method	Endpoint	Description
+```
 GET	/posts	Fetch all posts
 GET	/posts/:id	Fetch a single post
 POST	/posts	Create a new post
 PATCH	/posts/:id	Update a post
 DELETE	/posts/:id	Remove a post
+```
 
 🧠 Learning Goals
+```
 Use fetch API to interact with JSON data
-
 Update the DOM dynamically based on user actions
+```
 
 POST, PATCH, DELETE data from a mock backend
 
